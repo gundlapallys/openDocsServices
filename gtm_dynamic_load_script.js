@@ -11,9 +11,6 @@ const otSDKStubScript = '<script src="https://cdn.cookielaw.org/scripttemplates/
 '<script type="text/javascript">function OptanonWrapper() { }</script>';
 document.head.innerHTML = document.head.innerHTML+otSDKStubScript;
 //QA OneTrust Cookies Consent Notice end for infineon.com
-	
-}
-
 
 // Google Tag Manager
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -22,6 +19,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N8N7WR8');
 // End Google Tag Manager
+	
+}
+
 
 window.onload = function() {
 	// Google Tag Manager (noscript)
