@@ -3,13 +3,9 @@ const OtAutoBlockScript = document.createElement('script')
 OtAutoBlockScript.src = 'https://cdn.cookielaw.org/consent/85f8227d-e015-4c62-ab96-ee1a08760fb3-test/OtAutoBlock.js'
 document.head.append(OtAutoBlockScript);
 
-const otSDKStubScript = document.createElement('script')
-otSDKStubScript.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js'
-type.setAttribute('data-document-language', 'true');
-type.setAttribute('charset', 'UTF-8');
-type.setAttribute('data-domain-script', '85f8227d-e015-4c62-ab96-ee1a08760fb3-test');
-document.head.append(otSDKStubScript);
-
+const otSDKStubScript = '<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true"'+
+'type="text/javascript" charset="UTF-8" data-domain-script="85f8227d-e015-4c62-ab96-ee1a08760fb3-test" ></script>';
+document.head.innerHTML = document.head.innerHTML+otSDKStubScript;
 
 function OptanonWrapper() { }
 //QA OneTrust Cookies Consent Notice end for infineon.com
