@@ -4,10 +4,9 @@ OtAutoBlockScript.src = 'https://cdn.cookielaw.org/consent/85f8227d-e015-4c62-ab
 document.head.append(OtAutoBlockScript);
 
 const otSDKStubScript = '<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true"'+
-'type="text/javascript" charset="UTF-8" data-domain-script="85f8227d-e015-4c62-ab96-ee1a08760fb3-test" ></script>';
+'type="text/javascript" charset="UTF-8" data-domain-script="85f8227d-e015-4c62-ab96-ee1a08760fb3-test" ></script>'+
+'<script type="text/javascript">function OptanonWrapper() { }</script>';
 document.head.innerHTML = document.head.innerHTML+otSDKStubScript;
-
-function OptanonWrapper() { }
 //QA OneTrust Cookies Consent Notice end for infineon.com
 
 // Google Tag Manager
