@@ -10,7 +10,6 @@ document.head.append(otSDKStubScript);
 function OptanonWrapper() { }
 //QA OneTrust Cookies Consent Notice end for infineon.com
 
-
 // Google Tag Manager
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -19,10 +18,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-N8N7WR8');
 // End Google Tag Manager
 
-
-// Google Tag Manager (noscript)
-var noscript = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8N7WR8"'+
+window.onload = function() {
+	// Google Tag Manager (noscript)
+document.body.innerHTML = document.body.innerHTML + '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8N7WR8"'+
 				'height="0" width="0" style="display:none;visibility:hidden"><\/noscript>';
-document.body.write(noscript);
-	
 // End Google Tag Manager (noscript)
+
+}
+
