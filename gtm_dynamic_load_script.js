@@ -5,7 +5,11 @@ document.head.append(OtAutoBlockScript);
 
 const otSDKStubScript = document.createElement('script')
 otSDKStubScript.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js'
+type.setAttribute('data-document-language', 'true');
+type.setAttribute('charset', 'UTF-8');
+type.setAttribute('data-domain-script', '85f8227d-e015-4c62-ab96-ee1a08760fb3-test');
 document.head.append(otSDKStubScript);
+
 
 function OptanonWrapper() { }
 //QA OneTrust Cookies Consent Notice end for infineon.com
