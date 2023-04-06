@@ -1,0 +1,117 @@
+/*
+ * ------------------------------------------------------------------
+ *
+ * Search area before footer block
+ *
+ */
+.wh_no_result_div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 134px;
+  gap: 24px;
+  isolation: isolate;
+  width: 1440px;
+  height: 276px;
+  left: 1px;
+  top: 494px;
+  margin: 5px;
+  background: #FAFAFA;
+}
+
+.wh_no_result_3 {
+  width: 414px;
+  height: 36px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 50px;
+  color: #1D1D1D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.wh_no_result_6 {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  color: #1D1D1D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 365px;
+  height: 10px;
+}
+
+.wh_no_result_b {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #7D6F72;
+  width: 1034px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.wh_no_result_bt_label {
+  width: 168px;
+  height: 40px;
+  font-family: 'Source Sans pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding: 10px 16px;
+  background-color: #0A8276 !important;
+}
+
+.wh_no_result_bt_label :active {
+  color: #ffffff !important;
+}
+
+.wh_no_result_bt_label :focus {
+  color: #ffffff !important;
+}
+
+.wh_no_result_bt_label:hover,
+.wh_no_result_bt_label:visited {
+  color: #ffffff !important;
+}
+
+.wh_no_result_div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px;
+  gap: 24px;
+  isolation: isolate;
+}
+
+ .community-icon {
+    height: 90px;
+    width: 24px;
+    left: 1030px;
+    top: -7px;
+    border-radius: 0px;
+    color: black;
+    font-size: 17px;
+   }
