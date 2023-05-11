@@ -3,7 +3,7 @@ window.onload = function() {
 
     let locationPath = window.location.href;
     /* INSERT TOP BAR FOR ALL PAGES */
-    var rightHeaderDiv = '<div class="topnav">     <div class="topnav-right">  <img class="community-icon" src="https://documentation.infineon.com/html/modustoolbox-software/en/latest/_static/image/community.svg"/><a href="https://community.infineon.com/" target="_blank">community.infineon.com</a> </div> </div>';
+    var rightHeaderDiv = '<div class="topnav">     <div class="topnav-right">  <img class="community-icon" src="https://documentation.infineon.com/html/modustoolbox-software/en/latest/_static/image/community.svg"/><a href="https://community.infineon.com/" target="_blank">Infineon Developer Community</a> </div> </div>';
     var topBar = document.getElementById("wh_top_menu_and_indexterms_link");
     topBar.insertAdjacentHTML("afterend",rightHeaderDiv);
     /* INSERT SEARCH FOOTER ONLY IN SEARCH PAGE */
